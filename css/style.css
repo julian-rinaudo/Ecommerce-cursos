@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grid-conteiner{
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+header img{
+    width:80px;
+}
+header i{
+    font-size: 30px;
+}
+.hero{
+    background-image: url(../img/lugar-de-estudio-1.jpg);
+    background-size: cover;
+    height: 350px;
+}
+.busqueda{
+    position: absolute;
+    top: 150px;
+    left: 16%;
+}
+.busqueda h1{
+    color: rgba(0, 0, 0, 0.932);
+    font-style: italic;
+}
+.busqueda p {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 20px;
+    font-style:italic;
+}
+.info form{
+    position: relative;
+}
+.buscador{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.info form .icono{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    height: 100%;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+}
+.caracteristicas{
+    background-image: linear-gradient(to right, #c4755f 0%, #dfa579 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.texto{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    margin-right: 100px;
+    
+}
+
+.texto i{
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.cursos{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "curso-1 curso-2 curso-3"
+    "curso-4 curso-5 curso-6";
+}
+
+.card-1{
+    grid-area: curso-1;
+}
+.card-2{
+    grid-area: curso-2;
+}
+.card-2 img{
+    height: 217px;
+}
+.card-3{
+    grid-area: curso-3;
+}
+.card-3 img {
+    height: 217px;
+}
+.card-4{
+    grid-area: curso-4;
+}
+.card-5{
+    grid-area: curso-5;
+}
+.card-5 img {
+    height: 165px;
+}
+.card-6{
+    grid-area: curso-6;
+}
+.card-6 img {
+    height: 165px;
+}
+
+.btn{
+    width: 100%;
+}
