@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src=".js/script.js"></script>
+    <script defer src=".js/script.js"></script>
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"crossorigin="anonymous"></script>
@@ -18,16 +18,45 @@
 <body>
     <div class="grid-conteiner">
         <!-- header -->
-        
-       
-        <header>
+         <header>
             <img id="marca" src="./img/Captura de pantalla 2022-09-21 095416.svg"  alt="marca">
         
-            <i class="fa-solid fa-cart-shopping"></i>
+            <!-- carrito -->
+            <ul>
+                <li class="submenu">
+                    <i id="shop" class="fa-solid fa-cart-shopping"></i>
+                    <div class="carrito">
+                        <table id="lista-carrito" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKja0lwgwMMD7S9fEjyfgffmqbkkc8A5md7h4MKxrAIVxnyK7jWgbVE-PR7PvWtzemWLg&usqp=CAU"
+                                    class="card-img-top" alt="..." height="70"></td>
+                                <td>React</td>
+                                <td>$9.99</td>
+                                <td>1</td>
+                                <td><button>X</button></td> -->
+                                
+                            </tbody>
+                            
+                        </table>
+                        
+                    </div>
+                </li>
+            </ul>
+                
+                
+            <!-- carrito -->
         </header>
-        
-        
         <!-- header -->
+        
+        
         <div class="info">
             <div class="hero">
                 <div class="busqueda">
@@ -74,9 +103,10 @@
                 <div class="card-1" style="width: 18rem;">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKja0lwgwMMD7S9fEjyfgffmqbkkc8A5md7h4MKxrAIVxnyK7jWgbVE-PR7PvWtzemWLg&usqp=CAU" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">React</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
+                            <p class="precio">$122 <strong>$9.99</strong></p>
                         <a href="#" class="btn btn-dark">Comprar</a>
                     </div>
                 </div>
@@ -88,6 +118,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                                 content.</p>
+                                <p class="precio">$122 <strong>$9.99</strong></p>
                             <a href="#" class="btn btn-dark">Comprar</a>
                         </div>
                     </div>
@@ -99,6 +130,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                                 content.</p>
+                                <p class="precio">$122 <strong>$9.99</strong></p>
                             <a href="#" class="btn btn-dark">Comprar</a>
                         </div>
                     </div>
@@ -109,6 +141,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                                 content.</p>
+                                <p class="precio">$122 <strong>$9.99</strong></p>
                             <a href="#" class="btn btn-dark">Comprar</a>
                         </div>
                     </div>
@@ -120,6 +153,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                                 content.</p>
+                                <p class="precio">$122 <strong>$9.99</strong></p>
                             <a href="#" class="btn btn-dark">Comprar</a>
                         </div>
                     </div>
@@ -131,6 +165,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                                 content.</p>
+                                <p class="precio">$122 <strong>$9.99</strong></p>
                             <a href="#" class="btn btn-dark">Comprar</a>
                         </div>
                     </div>

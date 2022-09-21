@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKja0lwgwMMD7S9fEjyfgffmqbkkc8A5md7h4MKxrAIVxnyK7jWgbVE-PR7PvWtzemWLg&usqp=CAU",
+        "curso": "React",
+        "precio": 9.99
+        
+        
+    },
+    {
+        "id": 2,
+        "img": "https://kinsta.com/es/wp-content/uploads/sites/8/2018/05/qu%C3%A9-es-php-1-1024x512.png",
+        "curso": "Php",
+        "precio": 9.99
+    },
+    {
+        "id": 3,
+        "img": "https://i.ytimg.com/vi/ni3LEc3kvas/maxresdefault.jpg",
+        "curso": "Html y Css",
+        "precio": 9.99
+    },
+    {
+        "id": 4,
+        "img": "https://javadesde0.com/wp-content/uploads/typescript-1280x720.jpg",
+        "curso": "TypeScrypt",
+        "precio": 9.99
+    },
+    {
+        "id": 5,
+        "img": "https://www.redeszone.net/app/uploads-redeszone.net/2017/02/mysql.png",
+        "curso": "My SQL",
+        "precio": 9.99
+    },
+    {
+        "id": 6,
+        "img": "https://cms.rootstack.com/sites/default/files/inline-images/react-native.jpg",
+        "curso": "React Native",
+        "precio": 9.99
+    }
+]

@@ -111,30 +111,36 @@ header i{
 
 .card-1{
     grid-area: curso-1;
+    position: relative;
 }
 .card-2{
     grid-area: curso-2;
+    position: relative;
 }
 .card-2 img{
     height: 217px;
 }
 .card-3{
     grid-area: curso-3;
+    position: relative;
 }
 .card-3 img {
     height: 217px;
 }
 .card-4{
     grid-area: curso-4;
+    position: relative;
 }
 .card-5{
     grid-area: curso-5;
+    position: relative;
 }
 .card-5 img {
     height: 165px;
 }
 .card-6{
     grid-area: curso-6;
+    position: relative;
 }
 .card-6 img {
     height: 165px;
@@ -143,3 +149,50 @@ header i{
 .btn{
     width: 100%;
 }
+
+.carrito{
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    z-index: 1;
+}
+#shop{
+    margin-top: 15px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.submenu:hover .carrito{
+    display: block;
+    
+}
+ul{
+    list-style: none;
+}
+th{
+    padding: 10px 23px;
+}
+td{
+    padding: 25px;
+}
+
+button{
+    background-color: rgb(248, 60, 60);;
+    border: 10px;
+    width: 20px;
+}
+button:hover{
+    background-color: rgb(243, 26, 26);
+}
+.precio{
+    text-decoration: line-through;
+    
+}
+.precio strong{
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    font-size: 20px;
+}
+
