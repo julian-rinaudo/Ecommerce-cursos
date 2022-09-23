@@ -4,6 +4,7 @@ const tbody = document.querySelector("#tbody")
 let carrito = [];
 
 
+
 //funciones
 const cursos = async () => {
     const url = ".js/cursos.json"
