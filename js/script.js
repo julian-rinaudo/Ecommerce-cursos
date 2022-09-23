@@ -7,7 +7,7 @@ let carrito = [];
 
 //funciones
 const cursos = async () => {
-    const url = ".js/cursos.json"
+    const url = "js/cursos.json"
     try {
         const respuesta = await fetch(url);
         const datos = await respuesta.json();
